@@ -7,9 +7,11 @@ import HomePage from "./pages/HomePage.jsx"
 import NotFoundPage from "./pages/NotFoundPage.jsx"
 import OfferingsPage from "./pages/OfferingsPage.jsx"
 
+const basename = import.meta.env.BASE_URL.replace(/\/$/, "")
+
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={basename}>
       <Routes>
         <Route element={<Layout />}>
           <Route index element={<HomePage />} />

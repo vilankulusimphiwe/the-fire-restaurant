@@ -2,6 +2,12 @@
 
 Public website for The Fire Restaurant, a South African shisanyama and restaurant in Johannesburg.
 
+## Live site
+
+https://vilankulusimphiwe.github.io/the-fire-restaurant/
+
+Opening that address loads the published site. It is updated from the `main` branch.
+
 This phase is the advertising and information site only. Point of sale, stock, staff, and other business-management tools are out of scope.
 
 ## Technology stack
