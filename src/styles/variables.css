@@ -1,0 +1,46 @@
+:root {
+  /*
+    Palette for fire, charcoal, and the braai.
+    Change these custom properties to restyle the whole site.
+  */
+  --color-charcoal: #4e382b;
+  --color-charcoal-raised: #624838;
+  --color-ink: #3f2e24;
+  --color-ember: #e4570e;
+  --color-ember-hot: #ff7a2f;
+  --color-gold: #e0b15a;
+  --color-cream: #f6efe4;
+  --color-cream-deep: #e8dccb;
+  --color-brown: #6d4833;
+  --color-brown-deep: #3b2619;
+
+  --color-text: #f6efe4;
+  --color-text-muted: #dccbb8;
+  --color-text-dark: #1c1410;
+  --color-text-dark-muted: #5e4838;
+  --color-on-ember: #1a100c;
+
+  --font-display: "Oswald", "Arial Narrow", sans-serif;
+  --font-body: "Source Sans 3", "Segoe UI", sans-serif;
+
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: 2rem;
+  --space-7: 3rem;
+  --space-8: 5rem;
+
+  --header-height: 4.5rem;
+  --content-width: 72rem;
+  --radius-pill: 999px;
+  --shadow: 0 18px 40px rgba(0, 0, 0, 0.28);
+  --focus: 2px solid var(--color-gold);
+  --motion: 180ms ease;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --motion: 0ms;
+  }
+}
